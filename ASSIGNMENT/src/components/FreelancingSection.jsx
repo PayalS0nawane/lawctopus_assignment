@@ -13,7 +13,8 @@ export default function FreelancingSection() {
           />
 
           <div className="mt-10 space-y-6">
-            {freelancingPoints.map((point) => (
+            {
+            freelancingPoints.map((point) => (
               <div key={point.platform} className="flex gap-4">
                 <div className="mt-1 h-2 w-2 rounded-full bg-legal flex-shrink-0" aria-hidden="true" />
                 <div>
@@ -23,7 +24,8 @@ export default function FreelancingSection() {
                   <p className="mt-1 text-slate leading-relaxed">{point.detail}</p>
                 </div>
               </div>
-            ))}
+            ))
+            }
           </div>
         </div>
 

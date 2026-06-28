@@ -71,14 +71,14 @@ export default function Pricing() {
                 ))}
               </ul>
 
-              
+              <a
                 href="#"
                 className={`mt-8 inline-flex items-center justify-center rounded-full px-6 py-3 text-sm font-medium transition-colors ${
                   tier.highlighted
                     ? "bg-paper text-ink hover:bg-brass hover:text-paper"
                     : "bg-ink text-paper hover:bg-legal"
                 }`}
-              <a>
+              >
                 Enroll in {tier.name}
               </a>
             </div>
