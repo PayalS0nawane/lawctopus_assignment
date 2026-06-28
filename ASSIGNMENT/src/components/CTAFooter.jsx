@@ -12,12 +12,12 @@ export default function CTAFooter() {
           Six months from now, you'll either still be reading contracts —
           or drafting them for a paying client.
         </p>
-        
+        <a
           href="#pricing"
           className="mt-8 inline-flex items-center justify-center rounded-full bg-paper text-ink px-8 py-3.5 text-sm font-medium hover:bg-brass hover:text-paper transition-colors"
-        
+        >
           View course & pricing
-        
+        </a>
       </div>
     </section>
   );
